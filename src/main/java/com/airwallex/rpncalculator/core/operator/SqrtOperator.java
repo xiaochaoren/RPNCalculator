@@ -1,4 +1,4 @@
-package com.airwallex.rpncalculator.operator;
+package com.airwallex.rpncalculator.core.operator;
 
 import java.util.Deque;
 

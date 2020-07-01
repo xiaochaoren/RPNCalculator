@@ -1,4 +1,4 @@
-package com.airwallex.rpncalculator.exception;
+package com.airwallex.rpncalculator.core.exception;
 
 /**
  * @author zhangchao

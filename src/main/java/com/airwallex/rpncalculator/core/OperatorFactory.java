@@ -1,7 +1,7 @@
 package com.airwallex.rpncalculator.core;
 
-import com.airwallex.rpncalculator.exception.UnknownOperatorException;
-import com.airwallex.rpncalculator.operator.*;
+import com.airwallex.rpncalculator.core.exception.UnknownOperatorException;
+import com.airwallex.rpncalculator.core.operator.*;
 
 import java.util.Deque;
 

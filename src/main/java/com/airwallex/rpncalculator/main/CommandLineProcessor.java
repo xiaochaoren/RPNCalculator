@@ -1,8 +1,9 @@
-package com.airwallex.rpncalculator.core;
+package com.airwallex.rpncalculator.main;
 
-import com.airwallex.rpncalculator.exception.DividedByZeroException;
-import com.airwallex.rpncalculator.exception.InsufficientParametersException;
-import com.airwallex.rpncalculator.exception.UnknownOperatorException;
+import com.airwallex.rpncalculator.core.Calculator;
+import com.airwallex.rpncalculator.core.exception.DividedByZeroException;
+import com.airwallex.rpncalculator.core.exception.InsufficientParametersException;
+import com.airwallex.rpncalculator.core.exception.UnknownOperatorException;
 
 import java.text.DecimalFormat;
 import java.util.*;

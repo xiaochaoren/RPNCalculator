@@ -1,23 +1,24 @@
-package com.airwallex.rpncalculator.operator;
+package com.airwallex.rpncalculator.core.operator;
 
 import java.util.Deque;
 
 /**
  * @author zhangchao
- * @version MultiplicationOperator.java, v 0.1 2020/7/1 10:59 下午
+ * @version AdditionOperator.java, v 0.1 2020/7/1 10:12 下午
  */
-public class MultiplicationOperator extends BinaryOperator {
+public class AdditionOperator extends BinaryOperator {
+
     /**
      * constructor to build AbstractOperator
      *
      * @param stack the stack storing the operands
      */
-    public MultiplicationOperator(Deque<Double> stack) {
+    public AdditionOperator(Deque<Double> stack) {
         super(stack);
     }
 
     @Override
     protected double calculate(double operandA, double operandB) {
-        return operandA * operandB;
+        return operandA + operandB;
     }
 }

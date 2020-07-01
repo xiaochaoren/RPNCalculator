@@ -1,7 +1,7 @@
-package com.airwallex.rpncalculator.operator;
+package com.airwallex.rpncalculator.core.operator;
 
-import com.airwallex.rpncalculator.exception.DividedByZeroException;
-import com.airwallex.rpncalculator.exception.InsufficientParametersException;
+import com.airwallex.rpncalculator.core.exception.DividedByZeroException;
+import com.airwallex.rpncalculator.core.exception.InsufficientParametersException;
 
 import java.util.Deque;
 
